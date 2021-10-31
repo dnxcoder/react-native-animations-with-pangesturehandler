@@ -82,7 +82,7 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     color: "#FFF",
-    borderRadius: 8,
+    borderRadius: 999999999999,
   },
   labelButton: {
     color: "#FFF",
