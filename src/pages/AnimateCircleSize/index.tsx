@@ -26,7 +26,7 @@ export default function AnimateCircleSize() {
   const reanimatedStyle = useAnimatedStyle(() => {
     return {
       opacity: progress.value,
-      borderRadius: progress.value * SIZE,
+      borderRadius: 999999999999999,
       width: size.value,
       height: size.value,
       transform: [{ scale: scale.value }],
@@ -82,7 +82,7 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     color: "#FFF",
-    borderRadius: 999999999999,
+    borderRadius: 99999999999999999999,
   },
   labelButton: {
     color: "#FFF",
